@@ -1,7 +1,7 @@
-let prod=false
+let prod=true
 let url = ''
 if(prod){
-    url = ""
+    url = "https://gsf-loanapp.herokuapp.com"
 }else{
     url = "http://localhost:3001"
 }
